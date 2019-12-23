@@ -1,0 +1,1397 @@
+Category,Test,Region,Result,Resource,More Info
+CloudTrail,CloudTrail Bucket Delete Policy,us-east-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,us-east-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,us-west-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,us-west-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,ca-central-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,eu-central-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,eu-west-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,eu-west-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,eu-west-3,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,eu-north-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,ap-northeast-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,ap-northeast-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,ap-southeast-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,ap-southeast-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,ap-south-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,sa-east-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Delete Policy,ap-east-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail Bucket Delete Policy,me-south-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail Enabled,us-east-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,us-east-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,us-west-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,us-west-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,ca-central-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,eu-central-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,eu-west-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,eu-west-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,eu-west-3,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,eu-north-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,ap-northeast-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,ap-northeast-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,ap-southeast-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,ap-southeast-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,ap-south-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,sa-east-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Enabled,ap-east-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail Enabled,me-south-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail Enabled,global,FAIL,,CloudTrail is not configured to monitor global services
+EC2,Elastic IP Limit,us-east-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,us-east-2,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,us-west-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,us-west-2,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,ca-central-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,eu-central-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,eu-west-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,eu-west-2,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,eu-west-3,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,eu-north-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,ap-northeast-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,ap-northeast-2,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,ap-southeast-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,ap-southeast-2,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,ap-south-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,sa-east-1,PASS,,No Elastic IPs found
+EC2,Elastic IP Limit,ap-east-1,PASS,,Region is not enabled
+EC2,Elastic IP Limit,me-south-1,PASS,,Region is not enabled
+EC2,VPC Elastic IP Limit,us-east-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,us-east-2,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,us-west-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,us-west-2,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,ca-central-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,eu-central-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,eu-west-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,eu-west-2,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,eu-west-3,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,eu-north-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,ap-northeast-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,ap-northeast-2,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,ap-southeast-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,ap-southeast-2,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,ap-south-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,sa-east-1,PASS,,No VPC Elastic IPs found
+EC2,VPC Elastic IP Limit,ap-east-1,PASS,,Region is not enabled
+EC2,VPC Elastic IP Limit,me-south-1,PASS,,Region is not enabled
+EC2,Instance Limit,us-east-1,PASS,,No instances found
+EC2,Instance Limit,us-east-2,PASS,,No instances found
+EC2,Instance Limit,us-west-1,PASS,,No instances found
+EC2,Instance Limit,us-west-2,PASS,,No instances found
+EC2,Instance Limit,ca-central-1,PASS,,No instances found
+EC2,Instance Limit,eu-central-1,PASS,,No instances found
+EC2,Instance Limit,eu-west-1,PASS,,No instances found
+EC2,Instance Limit,eu-west-2,PASS,,No instances found
+EC2,Instance Limit,eu-west-3,PASS,,No instances found
+EC2,Instance Limit,eu-north-1,PASS,,No instances found
+EC2,Instance Limit,ap-northeast-1,PASS,,No instances found
+EC2,Instance Limit,ap-northeast-2,PASS,,No instances found
+EC2,Instance Limit,ap-southeast-1,PASS,,No instances found
+EC2,Instance Limit,ap-southeast-2,PASS,,No instances found
+EC2,Instance Limit,ap-south-1,PASS,,No instances found
+EC2,Instance Limit,sa-east-1,PASS,,No instances found
+EC2,Instance Limit,ap-east-1,PASS,,Region is not enabled
+EC2,Instance Limit,me-south-1,PASS,,Region is not enabled
+EC2,Excessive Security Groups,us-east-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,us-east-2,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,us-west-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,us-west-2,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,ca-central-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,eu-central-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,eu-west-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,eu-west-2,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,eu-west-3,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,eu-north-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,ap-northeast-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,ap-northeast-2,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,ap-southeast-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,ap-southeast-2,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,ap-south-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,sa-east-1,PASS,,Acceptable number of security groups: 1 groups present
+EC2,Excessive Security Groups,ap-east-1,PASS,,Region is not enabled
+EC2,Excessive Security Groups,me-south-1,PASS,,Region is not enabled
+EC2,Open FTP,us-east-1,PASS,,No public open ports found
+EC2,Open FTP,us-east-2,PASS,,No public open ports found
+EC2,Open FTP,us-west-1,PASS,,No public open ports found
+EC2,Open FTP,us-west-2,PASS,,No public open ports found
+EC2,Open FTP,ca-central-1,PASS,,No public open ports found
+EC2,Open FTP,eu-central-1,PASS,,No public open ports found
+EC2,Open FTP,eu-west-1,PASS,,No public open ports found
+EC2,Open FTP,eu-west-2,PASS,,No public open ports found
+EC2,Open FTP,eu-west-3,PASS,,No public open ports found
+EC2,Open FTP,eu-north-1,PASS,,No public open ports found
+EC2,Open FTP,ap-northeast-1,PASS,,No public open ports found
+EC2,Open FTP,ap-northeast-2,PASS,,No public open ports found
+EC2,Open FTP,ap-southeast-1,PASS,,No public open ports found
+EC2,Open FTP,ap-southeast-2,PASS,,No public open ports found
+EC2,Open FTP,ap-south-1,PASS,,No public open ports found
+EC2,Open FTP,sa-east-1,PASS,,No public open ports found
+EC2,Open FTP,ap-east-1,PASS,,Region is not enabled
+EC2,Open FTP,me-south-1,PASS,,Region is not enabled
+EC2,Open SSH,us-east-1,PASS,,No public open ports found
+EC2,Open SSH,us-east-2,PASS,,No public open ports found
+EC2,Open SSH,us-west-1,PASS,,No public open ports found
+EC2,Open SSH,us-west-2,PASS,,No public open ports found
+EC2,Open SSH,ca-central-1,PASS,,No public open ports found
+EC2,Open SSH,eu-central-1,PASS,,No public open ports found
+EC2,Open SSH,eu-west-1,PASS,,No public open ports found
+EC2,Open SSH,eu-west-2,PASS,,No public open ports found
+EC2,Open SSH,eu-west-3,PASS,,No public open ports found
+EC2,Open SSH,eu-north-1,PASS,,No public open ports found
+EC2,Open SSH,ap-northeast-1,PASS,,No public open ports found
+EC2,Open SSH,ap-northeast-2,PASS,,No public open ports found
+EC2,Open SSH,ap-southeast-1,PASS,,No public open ports found
+EC2,Open SSH,ap-southeast-2,PASS,,No public open ports found
+EC2,Open SSH,ap-south-1,PASS,,No public open ports found
+EC2,Open SSH,sa-east-1,PASS,,No public open ports found
+EC2,Open SSH,ap-east-1,PASS,,Region is not enabled
+EC2,Open SSH,me-south-1,PASS,,Region is not enabled
+EC2,Open Telnet,us-east-1,PASS,,No public open ports found
+EC2,Open Telnet,us-east-2,PASS,,No public open ports found
+EC2,Open Telnet,us-west-1,PASS,,No public open ports found
+EC2,Open Telnet,us-west-2,PASS,,No public open ports found
+EC2,Open Telnet,ca-central-1,PASS,,No public open ports found
+EC2,Open Telnet,eu-central-1,PASS,,No public open ports found
+EC2,Open Telnet,eu-west-1,PASS,,No public open ports found
+EC2,Open Telnet,eu-west-2,PASS,,No public open ports found
+EC2,Open Telnet,eu-west-3,PASS,,No public open ports found
+EC2,Open Telnet,eu-north-1,PASS,,No public open ports found
+EC2,Open Telnet,ap-northeast-1,PASS,,No public open ports found
+EC2,Open Telnet,ap-northeast-2,PASS,,No public open ports found
+EC2,Open Telnet,ap-southeast-1,PASS,,No public open ports found
+EC2,Open Telnet,ap-southeast-2,PASS,,No public open ports found
+EC2,Open Telnet,ap-south-1,PASS,,No public open ports found
+EC2,Open Telnet,sa-east-1,PASS,,No public open ports found
+EC2,Open Telnet,ap-east-1,PASS,,Region is not enabled
+EC2,Open Telnet,me-south-1,PASS,,Region is not enabled
+EC2,Open SMTP,us-east-1,PASS,,No public open ports found
+EC2,Open SMTP,us-east-2,PASS,,No public open ports found
+EC2,Open SMTP,us-west-1,PASS,,No public open ports found
+EC2,Open SMTP,us-west-2,PASS,,No public open ports found
+EC2,Open SMTP,ca-central-1,PASS,,No public open ports found
+EC2,Open SMTP,eu-central-1,PASS,,No public open ports found
+EC2,Open SMTP,eu-west-1,PASS,,No public open ports found
+EC2,Open SMTP,eu-west-2,PASS,,No public open ports found
+EC2,Open SMTP,eu-west-3,PASS,,No public open ports found
+EC2,Open SMTP,eu-north-1,PASS,,No public open ports found
+EC2,Open SMTP,ap-northeast-1,PASS,,No public open ports found
+EC2,Open SMTP,ap-northeast-2,PASS,,No public open ports found
+EC2,Open SMTP,ap-southeast-1,PASS,,No public open ports found
+EC2,Open SMTP,ap-southeast-2,PASS,,No public open ports found
+EC2,Open SMTP,ap-south-1,PASS,,No public open ports found
+EC2,Open SMTP,sa-east-1,PASS,,No public open ports found
+EC2,Open SMTP,ap-east-1,PASS,,Region is not enabled
+EC2,Open SMTP,me-south-1,PASS,,Region is not enabled
+EC2,Open DNS,us-east-1,PASS,,No public open ports found
+EC2,Open DNS,us-east-2,PASS,,No public open ports found
+EC2,Open DNS,us-west-1,PASS,,No public open ports found
+EC2,Open DNS,us-west-2,PASS,,No public open ports found
+EC2,Open DNS,ca-central-1,PASS,,No public open ports found
+EC2,Open DNS,eu-central-1,PASS,,No public open ports found
+EC2,Open DNS,eu-west-1,PASS,,No public open ports found
+EC2,Open DNS,eu-west-2,PASS,,No public open ports found
+EC2,Open DNS,eu-west-3,PASS,,No public open ports found
+EC2,Open DNS,eu-north-1,PASS,,No public open ports found
+EC2,Open DNS,ap-northeast-1,PASS,,No public open ports found
+EC2,Open DNS,ap-northeast-2,PASS,,No public open ports found
+EC2,Open DNS,ap-southeast-1,PASS,,No public open ports found
+EC2,Open DNS,ap-southeast-2,PASS,,No public open ports found
+EC2,Open DNS,ap-south-1,PASS,,No public open ports found
+EC2,Open DNS,sa-east-1,PASS,,No public open ports found
+EC2,Open DNS,ap-east-1,PASS,,Region is not enabled
+EC2,Open DNS,me-south-1,PASS,,Region is not enabled
+EC2,Open RPC,us-east-1,PASS,,No public open ports found
+EC2,Open RPC,us-east-2,PASS,,No public open ports found
+EC2,Open RPC,us-west-1,PASS,,No public open ports found
+EC2,Open RPC,us-west-2,PASS,,No public open ports found
+EC2,Open RPC,ca-central-1,PASS,,No public open ports found
+EC2,Open RPC,eu-central-1,PASS,,No public open ports found
+EC2,Open RPC,eu-west-1,PASS,,No public open ports found
+EC2,Open RPC,eu-west-2,PASS,,No public open ports found
+EC2,Open RPC,eu-west-3,PASS,,No public open ports found
+EC2,Open RPC,eu-north-1,PASS,,No public open ports found
+EC2,Open RPC,ap-northeast-1,PASS,,No public open ports found
+EC2,Open RPC,ap-northeast-2,PASS,,No public open ports found
+EC2,Open RPC,ap-southeast-1,PASS,,No public open ports found
+EC2,Open RPC,ap-southeast-2,PASS,,No public open ports found
+EC2,Open RPC,ap-south-1,PASS,,No public open ports found
+EC2,Open RPC,sa-east-1,PASS,,No public open ports found
+EC2,Open RPC,ap-east-1,PASS,,Region is not enabled
+EC2,Open RPC,me-south-1,PASS,,Region is not enabled
+EC2,Open NetBIOS,us-east-1,PASS,,No public open ports found
+EC2,Open NetBIOS,us-east-2,PASS,,No public open ports found
+EC2,Open NetBIOS,us-west-1,PASS,,No public open ports found
+EC2,Open NetBIOS,us-west-2,PASS,,No public open ports found
+EC2,Open NetBIOS,ca-central-1,PASS,,No public open ports found
+EC2,Open NetBIOS,eu-central-1,PASS,,No public open ports found
+EC2,Open NetBIOS,eu-west-1,PASS,,No public open ports found
+EC2,Open NetBIOS,eu-west-2,PASS,,No public open ports found
+EC2,Open NetBIOS,eu-west-3,PASS,,No public open ports found
+EC2,Open NetBIOS,eu-north-1,PASS,,No public open ports found
+EC2,Open NetBIOS,ap-northeast-1,PASS,,No public open ports found
+EC2,Open NetBIOS,ap-northeast-2,PASS,,No public open ports found
+EC2,Open NetBIOS,ap-southeast-1,PASS,,No public open ports found
+EC2,Open NetBIOS,ap-southeast-2,PASS,,No public open ports found
+EC2,Open NetBIOS,ap-south-1,PASS,,No public open ports found
+EC2,Open NetBIOS,sa-east-1,PASS,,No public open ports found
+EC2,Open NetBIOS,ap-east-1,PASS,,Region is not enabled
+EC2,Open NetBIOS,me-south-1,PASS,,Region is not enabled
+EC2,Open SMBoTCP,us-east-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,us-east-2,PASS,,No public open ports found
+EC2,Open SMBoTCP,us-west-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,us-west-2,PASS,,No public open ports found
+EC2,Open SMBoTCP,ca-central-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,eu-central-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,eu-west-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,eu-west-2,PASS,,No public open ports found
+EC2,Open SMBoTCP,eu-west-3,PASS,,No public open ports found
+EC2,Open SMBoTCP,eu-north-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,ap-northeast-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,ap-northeast-2,PASS,,No public open ports found
+EC2,Open SMBoTCP,ap-southeast-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,ap-southeast-2,PASS,,No public open ports found
+EC2,Open SMBoTCP,ap-south-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,sa-east-1,PASS,,No public open ports found
+EC2,Open SMBoTCP,ap-east-1,PASS,,Region is not enabled
+EC2,Open SMBoTCP,me-south-1,PASS,,Region is not enabled
+EC2,Open CIFS,us-east-1,PASS,,No public open ports found
+EC2,Open CIFS,us-east-2,PASS,,No public open ports found
+EC2,Open CIFS,us-west-1,PASS,,No public open ports found
+EC2,Open CIFS,us-west-2,PASS,,No public open ports found
+EC2,Open CIFS,ca-central-1,PASS,,No public open ports found
+EC2,Open CIFS,eu-central-1,PASS,,No public open ports found
+EC2,Open CIFS,eu-west-1,PASS,,No public open ports found
+EC2,Open CIFS,eu-west-2,PASS,,No public open ports found
+EC2,Open CIFS,eu-west-3,PASS,,No public open ports found
+EC2,Open CIFS,eu-north-1,PASS,,No public open ports found
+EC2,Open CIFS,ap-northeast-1,PASS,,No public open ports found
+EC2,Open CIFS,ap-northeast-2,PASS,,No public open ports found
+EC2,Open CIFS,ap-southeast-1,PASS,,No public open ports found
+EC2,Open CIFS,ap-southeast-2,PASS,,No public open ports found
+EC2,Open CIFS,ap-south-1,PASS,,No public open ports found
+EC2,Open CIFS,sa-east-1,PASS,,No public open ports found
+EC2,Open CIFS,ap-east-1,PASS,,Region is not enabled
+EC2,Open CIFS,me-south-1,PASS,,Region is not enabled
+EC2,Open SQL Server,us-east-1,PASS,,No public open ports found
+EC2,Open SQL Server,us-east-2,PASS,,No public open ports found
+EC2,Open SQL Server,us-west-1,PASS,,No public open ports found
+EC2,Open SQL Server,us-west-2,PASS,,No public open ports found
+EC2,Open SQL Server,ca-central-1,PASS,,No public open ports found
+EC2,Open SQL Server,eu-central-1,PASS,,No public open ports found
+EC2,Open SQL Server,eu-west-1,PASS,,No public open ports found
+EC2,Open SQL Server,eu-west-2,PASS,,No public open ports found
+EC2,Open SQL Server,eu-west-3,PASS,,No public open ports found
+EC2,Open SQL Server,eu-north-1,PASS,,No public open ports found
+EC2,Open SQL Server,ap-northeast-1,PASS,,No public open ports found
+EC2,Open SQL Server,ap-northeast-2,PASS,,No public open ports found
+EC2,Open SQL Server,ap-southeast-1,PASS,,No public open ports found
+EC2,Open SQL Server,ap-southeast-2,PASS,,No public open ports found
+EC2,Open SQL Server,ap-south-1,PASS,,No public open ports found
+EC2,Open SQL Server,sa-east-1,PASS,,No public open ports found
+EC2,Open SQL Server,ap-east-1,PASS,,Region is not enabled
+EC2,Open SQL Server,me-south-1,PASS,,Region is not enabled
+EC2,Open RDP,us-east-1,PASS,,No public open ports found
+EC2,Open RDP,us-east-2,PASS,,No public open ports found
+EC2,Open RDP,us-west-1,PASS,,No public open ports found
+EC2,Open RDP,us-west-2,PASS,,No public open ports found
+EC2,Open RDP,ca-central-1,PASS,,No public open ports found
+EC2,Open RDP,eu-central-1,PASS,,No public open ports found
+EC2,Open RDP,eu-west-1,PASS,,No public open ports found
+EC2,Open RDP,eu-west-2,PASS,,No public open ports found
+EC2,Open RDP,eu-west-3,PASS,,No public open ports found
+EC2,Open RDP,eu-north-1,PASS,,No public open ports found
+EC2,Open RDP,ap-northeast-1,PASS,,No public open ports found
+EC2,Open RDP,ap-northeast-2,PASS,,No public open ports found
+EC2,Open RDP,ap-southeast-1,PASS,,No public open ports found
+EC2,Open RDP,ap-southeast-2,PASS,,No public open ports found
+EC2,Open RDP,ap-south-1,PASS,,No public open ports found
+EC2,Open RDP,sa-east-1,PASS,,No public open ports found
+EC2,Open RDP,ap-east-1,PASS,,Region is not enabled
+EC2,Open RDP,me-south-1,PASS,,Region is not enabled
+EC2,Open MySQL,us-east-1,PASS,,No public open ports found
+EC2,Open MySQL,us-east-2,PASS,,No public open ports found
+EC2,Open MySQL,us-west-1,PASS,,No public open ports found
+EC2,Open MySQL,us-west-2,PASS,,No public open ports found
+EC2,Open MySQL,ca-central-1,PASS,,No public open ports found
+EC2,Open MySQL,eu-central-1,PASS,,No public open ports found
+EC2,Open MySQL,eu-west-1,PASS,,No public open ports found
+EC2,Open MySQL,eu-west-2,PASS,,No public open ports found
+EC2,Open MySQL,eu-west-3,PASS,,No public open ports found
+EC2,Open MySQL,eu-north-1,PASS,,No public open ports found
+EC2,Open MySQL,ap-northeast-1,PASS,,No public open ports found
+EC2,Open MySQL,ap-northeast-2,PASS,,No public open ports found
+EC2,Open MySQL,ap-southeast-1,PASS,,No public open ports found
+EC2,Open MySQL,ap-southeast-2,PASS,,No public open ports found
+EC2,Open MySQL,ap-south-1,PASS,,No public open ports found
+EC2,Open MySQL,sa-east-1,PASS,,No public open ports found
+EC2,Open MySQL,ap-east-1,PASS,,Region is not enabled
+EC2,Open MySQL,me-south-1,PASS,,Region is not enabled
+EC2,Open PostgreSQL,us-east-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,us-east-2,PASS,,No public open ports found
+EC2,Open PostgreSQL,us-west-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,us-west-2,PASS,,No public open ports found
+EC2,Open PostgreSQL,ca-central-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,eu-central-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,eu-west-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,eu-west-2,PASS,,No public open ports found
+EC2,Open PostgreSQL,eu-west-3,PASS,,No public open ports found
+EC2,Open PostgreSQL,eu-north-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,ap-northeast-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,ap-northeast-2,PASS,,No public open ports found
+EC2,Open PostgreSQL,ap-southeast-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,ap-southeast-2,PASS,,No public open ports found
+EC2,Open PostgreSQL,ap-south-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,sa-east-1,PASS,,No public open ports found
+EC2,Open PostgreSQL,ap-east-1,PASS,,Region is not enabled
+EC2,Open PostgreSQL,me-south-1,PASS,,Region is not enabled
+EC2,Open VNC Client,us-east-1,PASS,,No public open ports found
+EC2,Open VNC Client,us-east-2,PASS,,No public open ports found
+EC2,Open VNC Client,us-west-1,PASS,,No public open ports found
+EC2,Open VNC Client,us-west-2,PASS,,No public open ports found
+EC2,Open VNC Client,ca-central-1,PASS,,No public open ports found
+EC2,Open VNC Client,eu-central-1,PASS,,No public open ports found
+EC2,Open VNC Client,eu-west-1,PASS,,No public open ports found
+EC2,Open VNC Client,eu-west-2,PASS,,No public open ports found
+EC2,Open VNC Client,eu-west-3,PASS,,No public open ports found
+EC2,Open VNC Client,eu-north-1,PASS,,No public open ports found
+EC2,Open VNC Client,ap-northeast-1,PASS,,No public open ports found
+EC2,Open VNC Client,ap-northeast-2,PASS,,No public open ports found
+EC2,Open VNC Client,ap-southeast-1,PASS,,No public open ports found
+EC2,Open VNC Client,ap-southeast-2,PASS,,No public open ports found
+EC2,Open VNC Client,ap-south-1,PASS,,No public open ports found
+EC2,Open VNC Client,sa-east-1,PASS,,No public open ports found
+EC2,Open VNC Client,ap-east-1,PASS,,Region is not enabled
+EC2,Open VNC Client,me-south-1,PASS,,Region is not enabled
+EC2,Open VNC Server,us-east-1,PASS,,No public open ports found
+EC2,Open VNC Server,us-east-2,PASS,,No public open ports found
+EC2,Open VNC Server,us-west-1,PASS,,No public open ports found
+EC2,Open VNC Server,us-west-2,PASS,,No public open ports found
+EC2,Open VNC Server,ca-central-1,PASS,,No public open ports found
+EC2,Open VNC Server,eu-central-1,PASS,,No public open ports found
+EC2,Open VNC Server,eu-west-1,PASS,,No public open ports found
+EC2,Open VNC Server,eu-west-2,PASS,,No public open ports found
+EC2,Open VNC Server,eu-west-3,PASS,,No public open ports found
+EC2,Open VNC Server,eu-north-1,PASS,,No public open ports found
+EC2,Open VNC Server,ap-northeast-1,PASS,,No public open ports found
+EC2,Open VNC Server,ap-northeast-2,PASS,,No public open ports found
+EC2,Open VNC Server,ap-southeast-1,PASS,,No public open ports found
+EC2,Open VNC Server,ap-southeast-2,PASS,,No public open ports found
+EC2,Open VNC Server,ap-south-1,PASS,,No public open ports found
+EC2,Open VNC Server,sa-east-1,PASS,,No public open ports found
+EC2,Open VNC Server,ap-east-1,PASS,,Region is not enabled
+EC2,Open VNC Server,me-south-1,PASS,,Region is not enabled
+IAM,Certificate Expiry,global,PASS,,No certificates found
+ELB,Insecure Ciphers,us-east-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,us-east-2,PASS,,No load balancers present
+ELB,Insecure Ciphers,us-west-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,us-west-2,PASS,,No load balancers present
+ELB,Insecure Ciphers,ca-central-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,eu-central-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,eu-west-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,eu-west-2,PASS,,No load balancers present
+ELB,Insecure Ciphers,eu-west-3,PASS,,No load balancers present
+ELB,Insecure Ciphers,eu-north-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,ap-northeast-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,ap-northeast-2,PASS,,No load balancers present
+ELB,Insecure Ciphers,ap-southeast-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,ap-southeast-2,PASS,,No load balancers present
+ELB,Insecure Ciphers,ap-south-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,sa-east-1,PASS,,No load balancers present
+ELB,Insecure Ciphers,ap-east-1,PASS,,Region is not enabled
+ELB,Insecure Ciphers,me-south-1,PASS,,Region is not enabled
+IAM,Minimum Password Length,global,FAIL,,Account does not have a password policy
+IAM,Password Requires Symbols,global,FAIL,,Account does not have a password policy
+IAM,Maximum Password Age,global,FAIL,,Account does not have a password policy
+IAM,Password Reuse Prevention,global,FAIL,,Account does not have a password policy
+IAM,Root MFA Enabled,global,FAIL,arn:aws:iam::--REDACTED--:root,An MFA device was not found for the root account
+IAM,Root Access Keys,global,PASS,arn:aws:iam::--REDACTED--:root,Access keys were not found for the root account
+IAM,Users MFA Enabled,global,PASS,,No user accounts found
+EC2,Detect EC2 Classic Instances,us-east-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,us-east-2,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,us-west-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,us-west-2,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,ca-central-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,eu-central-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,eu-west-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,eu-west-2,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,eu-west-3,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,eu-north-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,ap-northeast-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,ap-northeast-2,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,ap-southeast-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,ap-southeast-2,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,ap-south-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,sa-east-1,PASS,,No instances found
+EC2,Detect EC2 Classic Instances,ap-east-1,PASS,,Region is not enabled
+EC2,Detect EC2 Classic Instances,me-south-1,PASS,,Region is not enabled
+IAM,Access Keys Rotated,global,PASS,,No users using access keys found
+IAM,Access Keys Last Used,global,PASS,,No users using access keys found
+IAM,Access Keys Extra,global,PASS,,No users using access keys found
+IAM,Empty Groups,global,PASS,,No groups found
+S3,S3 Bucket All Users Policy,global,PASS,,No S3 buckets to check
+RDS,RDS Restorable,us-east-1,PASS,,No RDS instances found
+RDS,RDS Restorable,us-east-2,PASS,,No RDS instances found
+RDS,RDS Restorable,us-west-1,PASS,,No RDS instances found
+RDS,RDS Restorable,us-west-2,PASS,,No RDS instances found
+RDS,RDS Restorable,ca-central-1,PASS,,No RDS instances found
+RDS,RDS Restorable,eu-central-1,PASS,,No RDS instances found
+RDS,RDS Restorable,eu-west-1,PASS,,No RDS instances found
+RDS,RDS Restorable,eu-west-2,PASS,,No RDS instances found
+RDS,RDS Restorable,eu-west-3,PASS,,No RDS instances found
+RDS,RDS Restorable,eu-north-1,PASS,,No RDS instances found
+RDS,RDS Restorable,ap-northeast-1,PASS,,No RDS instances found
+RDS,RDS Restorable,ap-northeast-2,PASS,,No RDS instances found
+RDS,RDS Restorable,ap-southeast-1,PASS,,No RDS instances found
+RDS,RDS Restorable,ap-southeast-2,PASS,,No RDS instances found
+RDS,RDS Restorable,ap-south-1,PASS,,No RDS instances found
+RDS,RDS Restorable,sa-east-1,PASS,,No RDS instances found
+RDS,RDS Restorable,ap-east-1,PASS,,Region is not enabled
+RDS,RDS Restorable,me-south-1,PASS,,Region is not enabled
+Route53,Domain Auto Renew,global,PASS,,No domains registered through Route53
+Route53,Domain Transfer Lock,global,PASS,,No domains registered through Route53
+Route53,Domain Expiry,global,PASS,,No domains registered through Route53
+RDS,RDS Encryption Enabled,us-east-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,us-east-2,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,us-west-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,us-west-2,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,ca-central-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,eu-central-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,eu-west-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,eu-west-2,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,eu-west-3,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,eu-north-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,ap-northeast-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,ap-northeast-2,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,ap-southeast-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,ap-southeast-2,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,ap-south-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,sa-east-1,PASS,,No RDS instances found
+RDS,RDS Encryption Enabled,ap-east-1,PASS,,Region is not enabled
+RDS,RDS Encryption Enabled,me-south-1,PASS,,Region is not enabled
+RDS,RDS Automated Backups,us-east-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,us-east-2,PASS,,No RDS instances found
+RDS,RDS Automated Backups,us-west-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,us-west-2,PASS,,No RDS instances found
+RDS,RDS Automated Backups,ca-central-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,eu-central-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,eu-west-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,eu-west-2,PASS,,No RDS instances found
+RDS,RDS Automated Backups,eu-west-3,PASS,,No RDS instances found
+RDS,RDS Automated Backups,eu-north-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,ap-northeast-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,ap-northeast-2,PASS,,No RDS instances found
+RDS,RDS Automated Backups,ap-southeast-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,ap-southeast-2,PASS,,No RDS instances found
+RDS,RDS Automated Backups,ap-south-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,sa-east-1,PASS,,No RDS instances found
+RDS,RDS Automated Backups,ap-east-1,PASS,,Region is not enabled
+RDS,RDS Automated Backups,me-south-1,PASS,,Region is not enabled
+RDS,RDS Publicly Accessible,us-east-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,us-east-2,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,us-west-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,us-west-2,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,ca-central-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,eu-central-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,eu-west-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,eu-west-2,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,eu-west-3,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,eu-north-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,ap-northeast-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,ap-northeast-2,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,ap-southeast-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,ap-southeast-2,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,ap-south-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,sa-east-1,PASS,,No RDS instances found
+RDS,RDS Publicly Accessible,ap-east-1,PASS,,Region is not enabled
+RDS,RDS Publicly Accessible,me-south-1,PASS,,Region is not enabled
+IAM,SSH Keys Rotated,global,PASS,,No user accounts with SSH keys found
+KMS,KMS Key Rotation,us-east-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,us-east-2,PASS,,No KMS keys found
+KMS,KMS Key Rotation,us-west-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,us-west-2,PASS,,No KMS keys found
+KMS,KMS Key Rotation,ca-central-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,eu-central-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,eu-west-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,eu-west-2,PASS,,No KMS keys found
+KMS,KMS Key Rotation,eu-west-3,PASS,,No KMS keys found
+KMS,KMS Key Rotation,eu-north-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,ap-northeast-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,ap-northeast-2,PASS,,No KMS keys found
+KMS,KMS Key Rotation,ap-southeast-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,ap-southeast-2,PASS,,No KMS keys found
+KMS,KMS Key Rotation,ap-south-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,sa-east-1,PASS,,No KMS keys found
+KMS,KMS Key Rotation,ap-east-1,PASS,,Region is not enabled
+KMS,KMS Key Rotation,me-south-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail File Validation,us-east-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,us-east-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,us-west-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,us-west-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,ca-central-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,eu-central-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,eu-west-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,eu-west-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,eu-west-3,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,eu-north-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,ap-northeast-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,ap-northeast-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,ap-southeast-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,ap-southeast-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,ap-south-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,sa-east-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail File Validation,ap-east-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail File Validation,me-south-1,PASS,,Region is not enabled
+IAM,Password Expiration,global,FAIL,,Account does not have a password policy
+IAM,Password Requires Lowercase,global,FAIL,,Account does not have a password policy
+IAM,Password Requires Numbers,global,FAIL,,Account does not have a password policy
+IAM,Password Requires Uppercase,global,FAIL,,Account does not have a password policy
+IAM,Root Account In Use,global,FAIL,arn:aws:iam::--REDACTED--:root,Root account was last used 0 days ago
+IAM,No User IAM Policies,global,PASS,,No user accounts found
+CloudTrail,CloudTrail To CloudWatch,us-east-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,us-east-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,us-west-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,us-west-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,ca-central-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,eu-central-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,eu-west-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,eu-west-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,eu-west-3,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,eu-north-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,ap-northeast-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,ap-northeast-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,ap-southeast-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,ap-southeast-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,ap-south-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,sa-east-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail To CloudWatch,ap-east-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail To CloudWatch,me-south-1,PASS,,Region is not enabled
+ConfigService,Config Service Enabled,us-east-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,us-east-2,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,us-west-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,us-west-2,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,ca-central-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,eu-central-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,eu-west-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,eu-west-2,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,eu-west-3,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,eu-north-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,ap-northeast-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,ap-northeast-2,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,ap-southeast-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,ap-southeast-2,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,ap-south-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,sa-east-1,FAIL,,Config Service is not configured
+ConfigService,Config Service Enabled,ap-east-1,PASS,,Region is not enabled
+ConfigService,Config Service Enabled,me-south-1,PASS,,Region is not enabled
+ConfigService,Config Service Enabled,global,FAIL,,Config Service is not monitoring global services
+CloudTrail,CloudTrail Bucket Access Logging,us-east-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,us-east-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,us-west-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,us-west-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,ca-central-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,eu-central-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,eu-west-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,eu-west-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,eu-west-3,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,eu-north-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,ap-northeast-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,ap-northeast-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,ap-southeast-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,ap-southeast-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,ap-south-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,sa-east-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Access Logging,ap-east-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail Bucket Access Logging,me-south-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail Encryption,us-east-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,us-east-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,us-west-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,us-west-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,ca-central-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,eu-central-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,eu-west-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,eu-west-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,eu-west-3,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,eu-north-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,ap-northeast-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,ap-northeast-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,ap-southeast-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,ap-southeast-2,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,ap-south-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,sa-east-1,FAIL,,CloudTrail is not enabled
+CloudTrail,CloudTrail Encryption,ap-east-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail Encryption,me-south-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail Bucket Private,us-east-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,us-east-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,us-west-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,us-west-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,ca-central-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,eu-central-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,eu-west-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,eu-west-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,eu-west-3,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,eu-north-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,ap-northeast-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,ap-northeast-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,ap-southeast-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,ap-southeast-2,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,ap-south-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,sa-east-1,PASS,,No S3 buckets to check
+CloudTrail,CloudTrail Bucket Private,ap-east-1,PASS,,Region is not enabled
+CloudTrail,CloudTrail Bucket Private,me-south-1,PASS,,Region is not enabled
+EC2,VPC Flow Logs Enabled,us-east-1,FAIL,vpc-b9f5d2c3,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,us-east-2,FAIL,vpc-2194514a,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,us-west-1,FAIL,vpc-963328f1,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,us-west-2,FAIL,vpc-651c8d1d,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,ca-central-1,FAIL,vpc-fa641e92,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,eu-central-1,FAIL,vpc-0a509560,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,eu-west-1,FAIL,vpc-a901e6d0,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,eu-west-2,FAIL,vpc-1b394473,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,eu-west-3,FAIL,vpc-6406090d,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,eu-north-1,FAIL,vpc-9c4f99f5,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,ap-northeast-1,FAIL,vpc-9f0401f8,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,ap-northeast-2,FAIL,vpc-0693476d,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,ap-southeast-1,FAIL,vpc-5f282338,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,ap-southeast-2,FAIL,vpc-9f605ef8,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,ap-south-1,FAIL,vpc-399c9e51,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,sa-east-1,FAIL,vpc-8edee4e9,VPC flow logs are not enabled
+EC2,VPC Flow Logs Enabled,ap-east-1,PASS,,Region is not enabled
+EC2,VPC Flow Logs Enabled,me-south-1,PASS,,Region is not enabled
+EC2,Default Security Group,us-east-1,FAIL,arn:aws:ec2:us-east-1:--REDACTED--:security-group/sg-813886d6,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,us-east-2,FAIL,arn:aws:ec2:us-east-2:--REDACTED--:security-group/sg-ffe5229b,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,us-west-1,FAIL,arn:aws:ec2:us-west-1:--REDACTED--:security-group/sg-9a1a39e4,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,us-west-2,FAIL,arn:aws:ec2:us-west-2:--REDACTED--:security-group/sg-e1a7b6a6,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,ca-central-1,FAIL,arn:aws:ec2:ca-central-1:--REDACTED--:security-group/sg-cf9917a1,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,eu-central-1,FAIL,arn:aws:ec2:eu-central-1:--REDACTED--:security-group/sg-522a1237,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,eu-west-1,FAIL,arn:aws:ec2:eu-west-1:--REDACTED--:security-group/sg-3baf7f70,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,eu-west-2,FAIL,arn:aws:ec2:eu-west-2:--REDACTED--:security-group/sg-0cc6816d,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,eu-west-3,FAIL,arn:aws:ec2:eu-west-3:--REDACTED--:security-group/sg-70d2751c,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,eu-north-1,FAIL,arn:aws:ec2:eu-north-1:--REDACTED--:security-group/sg-71ca081b,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,ap-northeast-1,FAIL,arn:aws:ec2:ap-northeast-1:--REDACTED--:security-group/sg-69540e1a,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,ap-northeast-2,FAIL,arn:aws:ec2:ap-northeast-2:--REDACTED--:security-group/sg-892992e9,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,ap-southeast-1,FAIL,arn:aws:ec2:ap-southeast-1:--REDACTED--:security-group/sg-99d1f5e7,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,ap-southeast-2,FAIL,arn:aws:ec2:ap-southeast-2:--REDACTED--:security-group/sg-116d2960,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,ap-south-1,FAIL,arn:aws:ec2:ap-south-1:--REDACTED--:security-group/sg-de97d2bf,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,sa-east-1,FAIL,arn:aws:ec2:sa-east-1:--REDACTED--:security-group/sg-b70c46ca,Default security group has 1 inbound and 1 outbound rules
+EC2,Default Security Group,ap-east-1,PASS,,Region is not enabled
+EC2,Default Security Group,me-south-1,PASS,,Region is not enabled
+CloudFront,Public S3 CloudFront Origin,global,PASS,,No CloudFront distributions found
+EC2,VPC Multiple Subnets,us-east-1,PASS,vpc-b9f5d2c3,There are 6 subnets used in one VPC.
+EC2,VPC Multiple Subnets,us-east-2,PASS,vpc-2194514a,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,us-west-1,PASS,vpc-963328f1,There are 2 subnets used in one VPC.
+EC2,VPC Multiple Subnets,us-west-2,PASS,vpc-651c8d1d,There are 4 subnets used in one VPC.
+EC2,VPC Multiple Subnets,ca-central-1,PASS,vpc-fa641e92,There are 2 subnets used in one VPC.
+EC2,VPC Multiple Subnets,eu-central-1,PASS,vpc-0a509560,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,eu-west-1,PASS,vpc-a901e6d0,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,eu-west-2,PASS,vpc-1b394473,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,eu-west-3,PASS,vpc-6406090d,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,eu-north-1,PASS,vpc-9c4f99f5,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,ap-northeast-1,PASS,vpc-9f0401f8,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,ap-northeast-2,PASS,vpc-0693476d,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,ap-southeast-1,PASS,vpc-5f282338,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,ap-southeast-2,PASS,vpc-9f605ef8,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,ap-south-1,PASS,vpc-399c9e51,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,sa-east-1,PASS,vpc-8edee4e9,There are 3 subnets used in one VPC.
+EC2,VPC Multiple Subnets,ap-east-1,PASS,,Region is not enabled
+EC2,VPC Multiple Subnets,me-south-1,PASS,,Region is not enabled
+SES,Email DKIM Enabled,us-east-1,PASS,,No SES identities found
+SES,Email DKIM Enabled,us-west-2,PASS,,No SES identities found
+SES,Email DKIM Enabled,eu-west-1,PASS,,No SES identities found
+EC2,Public AMI,us-east-1,PASS,,No AMIs found
+EC2,Public AMI,us-east-2,PASS,,No AMIs found
+EC2,Public AMI,us-west-1,PASS,,No AMIs found
+EC2,Public AMI,us-west-2,PASS,,No AMIs found
+EC2,Public AMI,ca-central-1,PASS,,No AMIs found
+EC2,Public AMI,eu-central-1,PASS,,No AMIs found
+EC2,Public AMI,eu-west-1,PASS,,No AMIs found
+EC2,Public AMI,eu-west-2,PASS,,No AMIs found
+EC2,Public AMI,eu-west-3,PASS,,No AMIs found
+EC2,Public AMI,eu-north-1,PASS,,No AMIs found
+EC2,Public AMI,ap-northeast-1,PASS,,No AMIs found
+EC2,Public AMI,ap-northeast-2,PASS,,No AMIs found
+EC2,Public AMI,ap-southeast-1,PASS,,No AMIs found
+EC2,Public AMI,ap-southeast-2,PASS,,No AMIs found
+EC2,Public AMI,ap-south-1,PASS,,No AMIs found
+EC2,Public AMI,sa-east-1,PASS,,No AMIs found
+EC2,Public AMI,ap-east-1,PASS,,Region is not enabled
+EC2,Public AMI,me-south-1,PASS,,Region is not enabled
+SNS,SNS Topic Policies,us-east-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,us-east-2,PASS,,No SNS topics found
+SNS,SNS Topic Policies,us-west-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,us-west-2,PASS,,No SNS topics found
+SNS,SNS Topic Policies,ca-central-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,eu-central-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,eu-west-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,eu-west-2,PASS,,No SNS topics found
+SNS,SNS Topic Policies,eu-west-3,PASS,,No SNS topics found
+SNS,SNS Topic Policies,eu-north-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,ap-northeast-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,ap-northeast-2,PASS,,No SNS topics found
+SNS,SNS Topic Policies,ap-southeast-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,ap-southeast-2,PASS,,No SNS topics found
+SNS,SNS Topic Policies,ap-south-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,sa-east-1,PASS,,No SNS topics found
+SNS,SNS Topic Policies,ap-east-1,PASS,,Region is not enabled
+SNS,SNS Topic Policies,me-south-1,PASS,,Region is not enabled
+CloudFront,Secure CloudFront Origin,global,PASS,,No CloudFront distributions found
+CloudFront,Secure CloudFront Origin,global,PASS,,No CloudFront origins without HTTPS or with insecure protocols found
+Lambda,Lambda Old Runtimes,us-east-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,us-east-2,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,us-west-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,us-west-2,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,ca-central-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,eu-central-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,eu-west-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,eu-west-2,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,eu-west-3,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,eu-north-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,ap-northeast-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,ap-northeast-2,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,ap-southeast-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,ap-southeast-2,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,ap-south-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,sa-east-1,PASS,,No Lambda functions found
+Lambda,Lambda Old Runtimes,ap-east-1,PASS,,Region is not enabled
+Lambda,Lambda Old Runtimes,me-south-1,PASS,,Region is not enabled
+Redshift,Redshift Encryption Enabled,us-east-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,us-east-2,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,us-west-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,us-west-2,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,ca-central-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,eu-central-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,eu-west-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,eu-west-2,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,eu-west-3,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,eu-north-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,ap-northeast-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,ap-northeast-2,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,ap-southeast-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,ap-southeast-2,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,ap-south-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,sa-east-1,PASS,,No Redshift clusters found
+Redshift,Redshift Encryption Enabled,ap-east-1,PASS,,Region is not enabled
+Redshift,Redshift Encryption Enabled,me-south-1,PASS,,Region is not enabled
+Redshift,Redshift Publicly Accessible,us-east-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,us-east-2,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,us-west-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,us-west-2,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,ca-central-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,eu-central-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,eu-west-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,eu-west-2,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,eu-west-3,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,eu-north-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,ap-northeast-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,ap-northeast-2,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,ap-southeast-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,ap-southeast-2,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,ap-south-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,sa-east-1,PASS,,No Redshift clusters found
+Redshift,Redshift Publicly Accessible,ap-east-1,PASS,,Region is not enabled
+Redshift,Redshift Publicly Accessible,me-south-1,PASS,,Region is not enabled
+CloudFront,Insecure CloudFront Protocols,global,PASS,,No CloudFront distributions found
+EC2,Instance IAM Role,us-east-1,PASS,,No instances found
+EC2,Instance IAM Role,us-east-2,PASS,,No instances found
+EC2,Instance IAM Role,us-west-1,PASS,,No instances found
+EC2,Instance IAM Role,us-west-2,PASS,,No instances found
+EC2,Instance IAM Role,ca-central-1,PASS,,No instances found
+EC2,Instance IAM Role,eu-central-1,PASS,,No instances found
+EC2,Instance IAM Role,eu-west-1,PASS,,No instances found
+EC2,Instance IAM Role,eu-west-2,PASS,,No instances found
+EC2,Instance IAM Role,eu-west-3,PASS,,No instances found
+EC2,Instance IAM Role,eu-north-1,PASS,,No instances found
+EC2,Instance IAM Role,ap-northeast-1,PASS,,No instances found
+EC2,Instance IAM Role,ap-northeast-2,PASS,,No instances found
+EC2,Instance IAM Role,ap-southeast-1,PASS,,No instances found
+EC2,Instance IAM Role,ap-southeast-2,PASS,,No instances found
+EC2,Instance IAM Role,ap-south-1,PASS,,No instances found
+EC2,Instance IAM Role,sa-east-1,PASS,,No instances found
+EC2,Instance IAM Role,ap-east-1,PASS,,Region is not enabled
+EC2,Instance IAM Role,me-south-1,PASS,,Region is not enabled
+EC2,Encrypted AMI,us-east-1,PASS,,No AMIs found
+EC2,Encrypted AMI,us-east-2,PASS,,No AMIs found
+EC2,Encrypted AMI,us-west-1,PASS,,No AMIs found
+EC2,Encrypted AMI,us-west-2,PASS,,No AMIs found
+EC2,Encrypted AMI,ca-central-1,PASS,,No AMIs found
+EC2,Encrypted AMI,eu-central-1,PASS,,No AMIs found
+EC2,Encrypted AMI,eu-west-1,PASS,,No AMIs found
+EC2,Encrypted AMI,eu-west-2,PASS,,No AMIs found
+EC2,Encrypted AMI,eu-west-3,PASS,,No AMIs found
+EC2,Encrypted AMI,eu-north-1,PASS,,No AMIs found
+EC2,Encrypted AMI,ap-northeast-1,PASS,,No AMIs found
+EC2,Encrypted AMI,ap-northeast-2,PASS,,No AMIs found
+EC2,Encrypted AMI,ap-southeast-1,PASS,,No AMIs found
+EC2,Encrypted AMI,ap-southeast-2,PASS,,No AMIs found
+EC2,Encrypted AMI,ap-south-1,PASS,,No AMIs found
+EC2,Encrypted AMI,sa-east-1,PASS,,No AMIs found
+EC2,Encrypted AMI,ap-east-1,PASS,,Region is not enabled
+EC2,Encrypted AMI,me-south-1,PASS,,Region is not enabled
+AutoScaling,ASG Multiple AZ,us-east-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,us-east-2,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,us-west-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,us-west-2,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,ca-central-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,eu-central-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,eu-west-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,eu-west-2,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,eu-west-3,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,eu-north-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,ap-northeast-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,ap-northeast-2,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,ap-southeast-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,ap-southeast-2,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,ap-south-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,sa-east-1,PASS,,No auto scaling groups found
+AutoScaling,ASG Multiple AZ,ap-east-1,PASS,,Region is not enabled
+AutoScaling,ASG Multiple AZ,me-south-1,PASS,,Region is not enabled
+CloudFront,CloudFront HTTPS Only,global,PASS,,No CloudFront distributions found
+ELB,ELB Logging Enabled,us-east-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,us-east-2,PASS,,No load balancers present
+ELB,ELB Logging Enabled,us-west-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,us-west-2,PASS,,No load balancers present
+ELB,ELB Logging Enabled,ca-central-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,eu-central-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,eu-west-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,eu-west-2,PASS,,No load balancers present
+ELB,ELB Logging Enabled,eu-west-3,PASS,,No load balancers present
+ELB,ELB Logging Enabled,eu-north-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,ap-northeast-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,ap-northeast-2,PASS,,No load balancers present
+ELB,ELB Logging Enabled,ap-southeast-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,ap-southeast-2,PASS,,No load balancers present
+ELB,ELB Logging Enabled,ap-south-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,sa-east-1,PASS,,No load balancers present
+ELB,ELB Logging Enabled,ap-east-1,PASS,,Region is not enabled
+ELB,ELB Logging Enabled,me-south-1,PASS,,Region is not enabled
+RDS,RDS Multiple AZ,us-east-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,us-east-2,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,us-west-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,us-west-2,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,ca-central-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,eu-central-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,eu-west-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,eu-west-2,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,eu-west-3,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,eu-north-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,ap-northeast-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,ap-northeast-2,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,ap-southeast-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,ap-southeast-2,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,ap-south-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,sa-east-1,PASS,,No RDS instances found
+RDS,RDS Multiple AZ,ap-east-1,PASS,,Region is not enabled
+RDS,RDS Multiple AZ,me-south-1,PASS,,Region is not enabled
+EC2,Open All Ports Protocols,us-east-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,us-east-2,PASS,,No public open ports found
+EC2,Open All Ports Protocols,us-west-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,us-west-2,PASS,,No public open ports found
+EC2,Open All Ports Protocols,ca-central-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,eu-central-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,eu-west-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,eu-west-2,PASS,,No public open ports found
+EC2,Open All Ports Protocols,eu-west-3,PASS,,No public open ports found
+EC2,Open All Ports Protocols,eu-north-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,ap-northeast-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,ap-northeast-2,PASS,,No public open ports found
+EC2,Open All Ports Protocols,ap-southeast-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,ap-southeast-2,PASS,,No public open ports found
+EC2,Open All Ports Protocols,ap-south-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,sa-east-1,PASS,,No public open ports found
+EC2,Open All Ports Protocols,ap-east-1,PASS,,Region is not enabled
+EC2,Open All Ports Protocols,me-south-1,PASS,,Region is not enabled
+CloudFront,CloudFront Logging Enabled,global,PASS,,No CloudFront distributions found
+S3,S3 Bucket Versioning,global,PASS,,No S3 buckets to check
+EC2,Subnet IP Availability,us-east-1,PASS,arn:aws:ec2:us-east-1:--REDACTED--:subnet/subnet-1a67aa14,Subnet subnet-1a67aa14 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-east-1,PASS,arn:aws:ec2:us-east-1:--REDACTED--:subnet/subnet-89d6ddee,Subnet subnet-89d6ddee is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-east-1,PASS,arn:aws:ec2:us-east-1:--REDACTED--:subnet/subnet-a364758d,Subnet subnet-a364758d is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-east-1,PASS,arn:aws:ec2:us-east-1:--REDACTED--:subnet/subnet-4c425510,Subnet subnet-4c425510 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-east-1,PASS,arn:aws:ec2:us-east-1:--REDACTED--:subnet/subnet-a8247a96,Subnet subnet-a8247a96 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-east-1,PASS,arn:aws:ec2:us-east-1:--REDACTED--:subnet/subnet-a39e44ee,Subnet subnet-a39e44ee is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-east-2,PASS,arn:aws:ec2:us-east-2:--REDACTED--:subnet/subnet-4099742b,Subnet subnet-4099742b is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-east-2,PASS,arn:aws:ec2:us-east-2:--REDACTED--:subnet/subnet-0a72f146,Subnet subnet-0a72f146 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-east-2,PASS,arn:aws:ec2:us-east-2:--REDACTED--:subnet/subnet-e3431899,Subnet subnet-e3431899 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-west-1,PASS,arn:aws:ec2:us-west-1:--REDACTED--:subnet/subnet-60fe3406,Subnet subnet-60fe3406 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-west-1,PASS,arn:aws:ec2:us-west-1:--REDACTED--:subnet/subnet-7af31520,Subnet subnet-7af31520 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-west-2,PASS,arn:aws:ec2:us-west-2:--REDACTED--:subnet/subnet-4fdf3d37,Subnet subnet-4fdf3d37 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-west-2,PASS,arn:aws:ec2:us-west-2:--REDACTED--:subnet/subnet-49787702,Subnet subnet-49787702 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-west-2,PASS,arn:aws:ec2:us-west-2:--REDACTED--:subnet/subnet-5001757b,Subnet subnet-5001757b is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,us-west-2,PASS,arn:aws:ec2:us-west-2:--REDACTED--:subnet/subnet-0e639e53,Subnet subnet-0e639e53 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ca-central-1,PASS,arn:aws:ec2:ca-central-1:--REDACTED--:subnet/subnet-8ffc78f5,Subnet subnet-8ffc78f5 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ca-central-1,PASS,arn:aws:ec2:ca-central-1:--REDACTED--:subnet/subnet-9293fbfa,Subnet subnet-9293fbfa is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-central-1,PASS,arn:aws:ec2:eu-central-1:--REDACTED--:subnet/subnet-6ff11f23,Subnet subnet-6ff11f23 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-central-1,PASS,arn:aws:ec2:eu-central-1:--REDACTED--:subnet/subnet-2a892540,Subnet subnet-2a892540 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-central-1,PASS,arn:aws:ec2:eu-central-1:--REDACTED--:subnet/subnet-6ffae112,Subnet subnet-6ffae112 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-west-1,PASS,arn:aws:ec2:eu-west-1:--REDACTED--:subnet/subnet-36481850,Subnet subnet-36481850 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-west-1,PASS,arn:aws:ec2:eu-west-1:--REDACTED--:subnet/subnet-f78cacbf,Subnet subnet-f78cacbf is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-west-1,PASS,arn:aws:ec2:eu-west-1:--REDACTED--:subnet/subnet-1d0a9847,Subnet subnet-1d0a9847 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-west-2,PASS,arn:aws:ec2:eu-west-2:--REDACTED--:subnet/subnet-f23fbf88,Subnet subnet-f23fbf88 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-west-2,PASS,arn:aws:ec2:eu-west-2:--REDACTED--:subnet/subnet-ed1b5c84,Subnet subnet-ed1b5c84 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-west-2,PASS,arn:aws:ec2:eu-west-2:--REDACTED--:subnet/subnet-6cee3820,Subnet subnet-6cee3820 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-west-3,PASS,arn:aws:ec2:eu-west-3:--REDACTED--:subnet/subnet-1fbb2d52,Subnet subnet-1fbb2d52 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-west-3,PASS,arn:aws:ec2:eu-west-3:--REDACTED--:subnet/subnet-df98d5a4,Subnet subnet-df98d5a4 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-west-3,PASS,arn:aws:ec2:eu-west-3:--REDACTED--:subnet/subnet-be1933d7,Subnet subnet-be1933d7 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-north-1,PASS,arn:aws:ec2:eu-north-1:--REDACTED--:subnet/subnet-3718087d,Subnet subnet-3718087d is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-north-1,PASS,arn:aws:ec2:eu-north-1:--REDACTED--:subnet/subnet-9610c7ff,Subnet subnet-9610c7ff is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,eu-north-1,PASS,arn:aws:ec2:eu-north-1:--REDACTED--:subnet/subnet-910afcea,Subnet subnet-910afcea is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-northeast-1,PASS,arn:aws:ec2:ap-northeast-1:--REDACTED--:subnet/subnet-cba19090,Subnet subnet-cba19090 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-northeast-1,PASS,arn:aws:ec2:ap-northeast-1:--REDACTED--:subnet/subnet-cb6ea0e0,Subnet subnet-cb6ea0e0 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-northeast-1,PASS,arn:aws:ec2:ap-northeast-1:--REDACTED--:subnet/subnet-eb5f98a3,Subnet subnet-eb5f98a3 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-northeast-2,PASS,arn:aws:ec2:ap-northeast-2:--REDACTED--:subnet/subnet-7f240e33,Subnet subnet-7f240e33 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-northeast-2,PASS,arn:aws:ec2:ap-northeast-2:--REDACTED--:subnet/subnet-24d1174f,Subnet subnet-24d1174f is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-northeast-2,PASS,arn:aws:ec2:ap-northeast-2:--REDACTED--:subnet/subnet-67af1c1c,Subnet subnet-67af1c1c is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-southeast-1,PASS,arn:aws:ec2:ap-southeast-1:--REDACTED--:subnet/subnet-7a2fc332,Subnet subnet-7a2fc332 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-southeast-1,PASS,arn:aws:ec2:ap-southeast-1:--REDACTED--:subnet/subnet-7a6f931c,Subnet subnet-7a6f931c is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-southeast-1,PASS,arn:aws:ec2:ap-southeast-1:--REDACTED--:subnet/subnet-f544efac,Subnet subnet-f544efac is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-southeast-2,PASS,arn:aws:ec2:ap-southeast-2:--REDACTED--:subnet/subnet-51907637,Subnet subnet-51907637 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-southeast-2,PASS,arn:aws:ec2:ap-southeast-2:--REDACTED--:subnet/subnet-7d9c8c34,Subnet subnet-7d9c8c34 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-southeast-2,PASS,arn:aws:ec2:ap-southeast-2:--REDACTED--:subnet/subnet-855acbdd,Subnet subnet-855acbdd is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-south-1,PASS,arn:aws:ec2:ap-south-1:--REDACTED--:subnet/subnet-4fc0eb27,Subnet subnet-4fc0eb27 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-south-1,PASS,arn:aws:ec2:ap-south-1:--REDACTED--:subnet/subnet-618c142d,Subnet subnet-618c142d is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-south-1,PASS,arn:aws:ec2:ap-south-1:--REDACTED--:subnet/subnet-c6f85abd,Subnet subnet-c6f85abd is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,sa-east-1,PASS,arn:aws:ec2:sa-east-1:--REDACTED--:subnet/subnet-dd9a2dbb,Subnet subnet-dd9a2dbb is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,sa-east-1,PASS,arn:aws:ec2:sa-east-1:--REDACTED--:subnet/subnet-8b02b0d0,Subnet subnet-8b02b0d0 is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,sa-east-1,PASS,arn:aws:ec2:sa-east-1:--REDACTED--:subnet/subnet-07a0154e,Subnet subnet-07a0154e is using 5 of 4096 (1%) available IPs.
+EC2,Subnet IP Availability,ap-east-1,PASS,,Region is not enabled
+EC2,Subnet IP Availability,me-south-1,PASS,,Region is not enabled
+IAM,IAM User Admins,global,PASS,,No user accounts found
+SQS,SQS Cross Account Access,us-east-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,us-east-2,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,us-west-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,us-west-2,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,ca-central-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,eu-central-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,eu-west-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,eu-west-2,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,eu-west-3,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,eu-north-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,ap-northeast-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,ap-northeast-2,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,ap-southeast-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,ap-southeast-2,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,ap-south-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,sa-east-1,PASS,,No SQS queues found
+SQS,SQS Cross Account Access,ap-east-1,PASS,,Region is not enabled
+SQS,SQS Cross Account Access,me-south-1,PASS,,Region is not enabled
+SQS,SQS Encrypted,us-east-1,PASS,,No SQS queues found
+SQS,SQS Encrypted,us-east-2,PASS,,No SQS queues found
+SQS,SQS Encrypted,us-west-2,PASS,,No SQS queues found
+SQS,SQS Encrypted,us-west-1,PASS,,No SQS queues found
+SQS,SQS Encrypted,ca-central-1,PASS,,No SQS queues found
+SQS,SQS Encrypted,eu-central-1,PASS,,No SQS queues found
+SQS,SQS Encrypted,eu-west-1,PASS,,No SQS queues found
+SQS,SQS Encrypted,eu-west-2,PASS,,No SQS queues found
+SQS,SQS Encrypted,eu-west-3,PASS,,No SQS queues found
+SQS,SQS Encrypted,eu-north-1,PASS,,No SQS queues found
+SQS,SQS Encrypted,ap-northeast-1,PASS,,No SQS queues found
+SQS,SQS Encrypted,ap-northeast-2,PASS,,No SQS queues found
+SQS,SQS Encrypted,ap-southeast-1,PASS,,No SQS queues found
+SQS,SQS Encrypted,ap-southeast-2,PASS,,No SQS queues found
+SQS,SQS Encrypted,ap-south-1,PASS,,No SQS queues found
+SQS,SQS Encrypted,sa-east-1,PASS,,No SQS queues found
+ELB,ELB No Instances,us-east-1,PASS,,No load balancers present
+ELB,ELB No Instances,us-east-2,PASS,,No load balancers present
+ELB,ELB No Instances,us-west-1,PASS,,No load balancers present
+ELB,ELB No Instances,us-west-2,PASS,,No load balancers present
+ELB,ELB No Instances,ca-central-1,PASS,,No load balancers present
+ELB,ELB No Instances,eu-central-1,PASS,,No load balancers present
+ELB,ELB No Instances,eu-west-1,PASS,,No load balancers present
+ELB,ELB No Instances,eu-west-2,PASS,,No load balancers present
+ELB,ELB No Instances,eu-west-3,PASS,,No load balancers present
+ELB,ELB No Instances,eu-north-1,PASS,,No load balancers present
+ELB,ELB No Instances,ap-northeast-1,PASS,,No load balancers present
+ELB,ELB No Instances,ap-northeast-2,PASS,,No load balancers present
+ELB,ELB No Instances,ap-southeast-1,PASS,,No load balancers present
+ELB,ELB No Instances,ap-southeast-2,PASS,,No load balancers present
+ELB,ELB No Instances,ap-south-1,PASS,,No load balancers present
+ELB,ELB No Instances,sa-east-1,PASS,,No load balancers present
+ELB,ELB No Instances,ap-east-1,PASS,,Region is not enabled
+ELB,ELB No Instances,me-south-1,PASS,,Region is not enabled
+IAM,Users Password Last Used,global,PASS,,No user accounts found
+EC2,NAT Multiple AZ,us-east-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,us-east-2,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,us-west-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,us-west-2,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,ca-central-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,eu-central-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,eu-west-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,eu-west-2,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,eu-west-3,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,eu-north-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,ap-northeast-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,ap-northeast-2,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,ap-southeast-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,ap-southeast-2,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,ap-south-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,sa-east-1,PASS,,No VPCs with NAT gateways found
+EC2,NAT Multiple AZ,ap-east-1,PASS,,Region is not enabled
+EC2,NAT Multiple AZ,me-south-1,PASS,,Region is not enabled
+EC2,Default VPC In Use,us-east-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,us-east-2,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,us-west-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,us-west-2,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,ca-central-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,eu-central-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,eu-west-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,eu-west-2,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,eu-west-3,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,eu-north-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,ap-northeast-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,ap-northeast-2,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,ap-southeast-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,ap-southeast-2,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,ap-south-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,sa-east-1,PASS,,Default VPC is not in use
+EC2,Default VPC In Use,ap-east-1,PASS,,Region is not enabled
+EC2,Default VPC In Use,me-south-1,PASS,,Region is not enabled
+EC2,Open Oracle,us-east-1,PASS,,No public open ports found
+EC2,Open Oracle,us-east-2,PASS,,No public open ports found
+EC2,Open Oracle,us-west-1,PASS,,No public open ports found
+EC2,Open Oracle,us-west-2,PASS,,No public open ports found
+EC2,Open Oracle,ca-central-1,PASS,,No public open ports found
+EC2,Open Oracle,eu-central-1,PASS,,No public open ports found
+EC2,Open Oracle,eu-west-1,PASS,,No public open ports found
+EC2,Open Oracle,eu-west-2,PASS,,No public open ports found
+EC2,Open Oracle,eu-west-3,PASS,,No public open ports found
+EC2,Open Oracle,eu-north-1,PASS,,No public open ports found
+EC2,Open Oracle,ap-northeast-1,PASS,,No public open ports found
+EC2,Open Oracle,ap-northeast-2,PASS,,No public open ports found
+EC2,Open Oracle,ap-southeast-1,PASS,,No public open ports found
+EC2,Open Oracle,ap-southeast-2,PASS,,No public open ports found
+EC2,Open Oracle,ap-south-1,PASS,,No public open ports found
+EC2,Open Oracle,sa-east-1,PASS,,No public open ports found
+EC2,Open Oracle,ap-east-1,PASS,,Region is not enabled
+EC2,Open Oracle,me-south-1,PASS,,Region is not enabled
+S3,S3 Bucket All Users ACL,global,PASS,,No S3 buckets to check
+KMS,KMS Key Policy,us-east-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,us-east-2,PASS,,No KMS keys found
+KMS,KMS Key Policy,us-west-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,us-west-2,PASS,,No KMS keys found
+KMS,KMS Key Policy,ca-central-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,eu-central-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,eu-west-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,eu-west-2,PASS,,No KMS keys found
+KMS,KMS Key Policy,eu-west-3,PASS,,No KMS keys found
+KMS,KMS Key Policy,eu-north-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,ap-northeast-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,ap-northeast-2,PASS,,No KMS keys found
+KMS,KMS Key Policy,ap-southeast-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,ap-southeast-2,PASS,,No KMS keys found
+KMS,KMS Key Policy,ap-south-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,sa-east-1,PASS,,No KMS keys found
+KMS,KMS Key Policy,ap-east-1,PASS,,Region is not enabled
+KMS,KMS Key Policy,me-south-1,PASS,,Region is not enabled
+EC2,EC2 Max Instances,us-east-1,PASS,,No instances found
+EC2,EC2 Max Instances,us-east-2,PASS,,No instances found
+EC2,EC2 Max Instances,us-west-1,PASS,,No instances found
+EC2,EC2 Max Instances,us-west-2,PASS,,No instances found
+EC2,EC2 Max Instances,ca-central-1,PASS,,No instances found
+EC2,EC2 Max Instances,eu-central-1,PASS,,No instances found
+EC2,EC2 Max Instances,eu-west-1,PASS,,No instances found
+EC2,EC2 Max Instances,eu-west-2,PASS,,No instances found
+EC2,EC2 Max Instances,eu-west-3,PASS,,No instances found
+EC2,EC2 Max Instances,eu-north-1,PASS,,No instances found
+EC2,EC2 Max Instances,ap-northeast-1,PASS,,No instances found
+EC2,EC2 Max Instances,ap-northeast-2,PASS,,No instances found
+EC2,EC2 Max Instances,ap-southeast-1,PASS,,No instances found
+EC2,EC2 Max Instances,ap-southeast-2,PASS,,No instances found
+EC2,EC2 Max Instances,ap-south-1,PASS,,No instances found
+EC2,EC2 Max Instances,sa-east-1,PASS,,No instances found
+EC2,EC2 Max Instances,ap-east-1,PASS,,Region is not enabled
+EC2,EC2 Max Instances,me-south-1,PASS,,Region is not enabled
+EC2,EC2 Max Instances,global,PASS,,0 instances in the account are within the global expected count of: 200
+ACM,ACM Certificate Validation,us-east-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,us-east-2,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,us-west-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,us-west-2,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,ca-central-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,eu-central-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,eu-west-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,eu-west-2,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,eu-west-3,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,eu-north-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,ap-northeast-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,ap-northeast-2,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,ap-southeast-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,ap-southeast-2,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,ap-south-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,sa-east-1,PASS,,No ACM certificates found
+ACM,ACM Certificate Validation,ap-east-1,PASS,,Region is not enabled
+ACM,ACM Certificate Validation,me-south-1,PASS,,Region is not enabled
+Transfer,Transfer Logging Enabled,us-east-1,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,us-east-2,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,us-west-1,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,us-west-2,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,ap-northeast-2,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,ap-southeast-1,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,ap-southeast-2,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,ap-northeast-1,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,ca-central-1,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,eu-central-1,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,eu-west-1,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,eu-west-2,PASS,,No Transfer servers found
+Transfer,Transfer Logging Enabled,eu-west-3,PASS,,No Transfer servers found
+EC2,Open Kibana,us-east-1,PASS,,No public open ports found
+EC2,Open Kibana,us-east-2,PASS,,No public open ports found
+EC2,Open Kibana,us-west-1,PASS,,No public open ports found
+EC2,Open Kibana,us-west-2,PASS,,No public open ports found
+EC2,Open Kibana,ca-central-1,PASS,,No public open ports found
+EC2,Open Kibana,eu-central-1,PASS,,No public open ports found
+EC2,Open Kibana,eu-west-1,PASS,,No public open ports found
+EC2,Open Kibana,eu-west-2,PASS,,No public open ports found
+EC2,Open Kibana,eu-west-3,PASS,,No public open ports found
+EC2,Open Kibana,eu-north-1,PASS,,No public open ports found
+EC2,Open Kibana,ap-northeast-1,PASS,,No public open ports found
+EC2,Open Kibana,ap-northeast-2,PASS,,No public open ports found
+EC2,Open Kibana,ap-southeast-1,PASS,,No public open ports found
+EC2,Open Kibana,ap-southeast-2,PASS,,No public open ports found
+EC2,Open Kibana,ap-south-1,PASS,,No public open ports found
+EC2,Open Kibana,sa-east-1,PASS,,No public open ports found
+EC2,Open Kibana,ap-east-1,PASS,,Region is not enabled
+EC2,Open Kibana,me-south-1,PASS,,Region is not enabled
+EC2,Open Hadoop HDFS NameNode Metadata Service,us-east-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,us-east-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,us-west-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,us-west-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,ca-central-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,eu-central-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,eu-west-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,eu-west-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,eu-west-3,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,eu-north-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,ap-northeast-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,ap-northeast-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,ap-southeast-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,ap-southeast-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,ap-south-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,sa-east-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode Metadata Service,ap-east-1,PASS,,Region is not enabled
+EC2,Open Hadoop HDFS NameNode Metadata Service,me-south-1,PASS,,Region is not enabled
+EC2,Open Hadoop HDFS NameNode WebUI,us-east-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,us-east-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,us-west-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,us-west-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,ca-central-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,eu-central-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,eu-west-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,eu-west-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,eu-west-3,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,eu-north-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,ap-northeast-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,ap-northeast-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,ap-southeast-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,ap-southeast-2,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,ap-south-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,sa-east-1,PASS,,No public open ports found
+EC2,Open Hadoop HDFS NameNode WebUI,ap-east-1,PASS,,Region is not enabled
+EC2,Open Hadoop HDFS NameNode WebUI,me-south-1,PASS,,Region is not enabled
+RDS,RDS Logging Enabled,us-east-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,us-east-2,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,us-west-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,us-west-2,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,ca-central-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,eu-central-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,eu-west-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,eu-west-2,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,eu-west-3,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,eu-north-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,ap-northeast-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,ap-northeast-2,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,ap-southeast-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,ap-southeast-2,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,ap-south-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,sa-east-1,PASS,,No RDS instances found
+RDS,RDS Logging Enabled,ap-east-1,PASS,,Region is not enabled
+RDS,RDS Logging Enabled,me-south-1,PASS,,Region is not enabled
+EFS,EFS Encryption Enabled,eu-west-2,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,eu-west-1,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,ap-northeast-2,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,ap-northeast-1,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,ap-southeast-1,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,ap-southeast-2,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,eu-central-1,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,us-east-1,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,us-east-2,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,us-west-1,PASS,,No EFS file systems present
+EFS,EFS Encryption Enabled,us-west-2,PASS,,No EFS file systems present
+Shield,Shield Advanced Enabled,global,FAIL,,Shield subscription is not enabled
+Shield,Shield Emergency Contacts,global,FAIL,,Shield subscription is not enabled
+Shield,Shield Protections,global,FAIL,,Shield subscription is not enabled
+EKS,EKS Kubernetes Version,us-east-1,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,us-east-2,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,us-west-2,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,eu-west-1,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,eu-central-1,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,eu-west-2,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,eu-west-3,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,eu-north-1,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,ap-southeast-1,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,ap-northeast-1,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,ap-southeast-2,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,ap-northeast-2,PASS,,No EKS clusters present
+EKS,EKS Kubernetes Version,ap-south-1,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,us-east-1,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,us-east-2,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,us-west-2,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,eu-west-1,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,eu-central-1,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,eu-west-2,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,eu-west-3,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,eu-north-1,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,ap-southeast-1,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,ap-northeast-1,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,ap-southeast-2,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,ap-northeast-2,PASS,,No EKS clusters present
+EKS,EKS Logging Enabled,ap-south-1,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,us-east-1,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,us-east-2,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,us-west-2,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,eu-west-1,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,eu-central-1,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,eu-west-2,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,eu-west-3,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,eu-north-1,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,ap-southeast-1,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,ap-northeast-1,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,ap-southeast-2,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,ap-northeast-2,PASS,,No EKS clusters present
+EKS,EKS Private Endpoint,ap-south-1,PASS,,No EKS clusters present
+EKS,EKS Security Groups,us-east-1,PASS,,No EKS clusters present
+EKS,EKS Security Groups,us-east-2,PASS,,No EKS clusters present
+EKS,EKS Security Groups,us-west-2,PASS,,No EKS clusters present
+EKS,EKS Security Groups,eu-west-1,PASS,,No EKS clusters present
+EKS,EKS Security Groups,eu-central-1,PASS,,No EKS clusters present
+EKS,EKS Security Groups,eu-west-2,PASS,,No EKS clusters present
+EKS,EKS Security Groups,eu-west-3,PASS,,No EKS clusters present
+EKS,EKS Security Groups,eu-north-1,PASS,,No EKS clusters present
+EKS,EKS Security Groups,ap-southeast-1,PASS,,No EKS clusters present
+EKS,EKS Security Groups,ap-northeast-1,PASS,,No EKS clusters present
+EKS,EKS Security Groups,ap-southeast-2,PASS,,No EKS clusters present
+EKS,EKS Security Groups,ap-northeast-2,PASS,,No EKS clusters present
+EKS,EKS Security Groups,ap-south-1,PASS,,No EKS clusters present
+ECR,ECR Repository Policy,us-east-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,us-east-2,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,us-west-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,us-west-2,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,ca-central-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,eu-central-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,eu-west-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,eu-west-2,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,eu-west-3,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,eu-north-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,ap-northeast-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,ap-northeast-2,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,ap-southeast-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,ap-southeast-2,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,ap-south-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,sa-east-1,PASS,,No ECR repositories present
+ECR,ECR Repository Policy,ap-east-1,PASS,,Region is not enabled
+ECR,ECR Repository Policy,me-south-1,PASS,,Region is not enabled
+IAM,IAM Role Policies,global,PASS,arn:aws:iam::--REDACTED--:role/aws-service-role/support.amazonaws.com/AWSServiceRoleForSupport,Role does not have overly-permissive policy
+IAM,IAM Role Policies,global,PASS,arn:aws:iam::--REDACTED--:role/aws-service-role/trustedadvisor.amazonaws.com/AWSServiceRoleForTrustedAdvisor,Role does not have overly-permissive policy
+IAM,IAM Role Policies,global,PASS,arn:aws:iam::--REDACTED--:role/cloudsploit-security-scanner-CloudSploitRole-1BHPOLOJNASNE,Role does not have overly-permissive policy
+S3,S3 Bucket Encryption,global,PASS,,No S3 buckets to check
+ES,ElasticSearch Public Service Domain,us-east-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,us-east-2,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,us-west-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,us-west-2,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,ca-central-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,eu-central-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,eu-west-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,eu-west-2,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,eu-west-3,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,eu-north-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,ap-northeast-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,ap-northeast-2,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,ap-southeast-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,ap-southeast-2,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,ap-south-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,sa-east-1,PASS,,No ES domains found
+ES,ElasticSearch Public Service Domain,ap-east-1,PASS,,Region is not enabled
+ES,ElasticSearch Public Service Domain,me-south-1,PASS,,Region is not enabled
+ES,ElasticSearch Encrypted Domain,us-east-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,us-east-2,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,us-west-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,us-west-2,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,ca-central-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,eu-central-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,eu-west-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,eu-west-2,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,eu-west-3,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,eu-north-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,ap-northeast-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,ap-northeast-2,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,ap-southeast-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,ap-southeast-2,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,ap-south-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,sa-east-1,PASS,,No ES domains found
+ES,ElasticSearch Encrypted Domain,ap-east-1,PASS,,Region is not enabled
+ES,ElasticSearch Encrypted Domain,me-south-1,PASS,,Region is not enabled
+ES,ElasticSearch Node To Node Encryption,us-east-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,us-east-2,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,us-west-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,us-west-2,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,ca-central-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,eu-central-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,eu-west-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,eu-west-2,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,eu-west-3,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,eu-north-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,ap-northeast-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,ap-northeast-2,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,ap-southeast-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,ap-southeast-2,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,ap-south-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,sa-east-1,PASS,,No ES domains found
+ES,ElasticSearch Node To Node Encryption,ap-east-1,PASS,,Region is not enabled
+ES,ElasticSearch Node To Node Encryption,me-south-1,PASS,,Region is not enabled
+ES,ElasticSearch Logging Enabled,us-east-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,us-east-2,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,us-west-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,us-west-2,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,ca-central-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,eu-central-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,eu-west-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,eu-west-2,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,eu-west-3,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,eu-north-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,ap-northeast-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,ap-northeast-2,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,ap-southeast-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,ap-southeast-2,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,ap-south-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,sa-east-1,PASS,,No ES domains found
+ES,ElasticSearch Logging Enabled,ap-east-1,PASS,,Region is not enabled
+ES,ElasticSearch Logging Enabled,me-south-1,PASS,,Region is not enabled
+ES,ElasticSearch Upgrade Available,us-east-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,us-east-2,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,us-west-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,us-west-2,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,ca-central-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,eu-central-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,eu-west-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,eu-west-2,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,eu-west-3,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,eu-north-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,ap-northeast-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,ap-northeast-2,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,ap-southeast-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,ap-southeast-2,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,ap-south-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,sa-east-1,PASS,,No ES domains found
+ES,ElasticSearch Upgrade Available,ap-east-1,PASS,,Region is not enabled
+ES,ElasticSearch Upgrade Available,me-south-1,PASS,,Region is not enabled
+ES,ElasticSearch HTTPS Only,us-east-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,us-east-2,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,us-west-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,us-west-2,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,ca-central-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,eu-central-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,eu-west-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,eu-west-2,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,eu-west-3,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,eu-north-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,ap-northeast-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,ap-northeast-2,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,ap-southeast-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,ap-southeast-2,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,ap-south-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,sa-east-1,PASS,,No ES domains found
+ES,ElasticSearch HTTPS Only,ap-east-1,PASS,,Region is not enabled
+ES,ElasticSearch HTTPS Only,me-south-1,PASS,,Region is not enabled
